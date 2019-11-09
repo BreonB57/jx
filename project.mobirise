@@ -11,7 +11,7 @@
         "secondaryColor": "#333333",
         "successColor": "#e67e22",
         "infoColor": "#f39c12",
-        "warningColor": "#ffffff",
+        "warningColor": "#000000",
         "dangerColor": "#666666",
         "titleFont": "Montserrat",
         "subtitleFont": "Montserrat",
@@ -56,13 +56,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.875rem"
@@ -77,7 +77,7 @@
               "background": "@primaryColor"
             },
             ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
               "background": "#e6e6e6"
@@ -89,7 +89,7 @@
               "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -112,10 +112,10 @@
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Liveries</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Destinations</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Contact us</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Liveries</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Destinations</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Contact us</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -341,10 +341,10 @@
             "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Liveries</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Destinations</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Contact us</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"true\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Liveries</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Destinations</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">Contact us</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
