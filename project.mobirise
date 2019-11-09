@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -18,7 +18,7 @@
         "textFont": "Open Sans",
         "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#fdfdfd"
@@ -80,13 +80,13 @@
               "color": "#ffffff"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#d5d5d5"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#e6e6e6!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#eeeeee"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -108,8 +108,8 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
-            "bgColor": "#eeeeee",
+            "transparent": false,
+            "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -178,7 +178,7 @@
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "title": "PERTH'S NEW AIRLINE",
-          "text": "Develop fully responsive, mobile-ready websites",
+          "text": "Welcome to JetLuxe,",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "alias": "colorm/components",
           "_tags": [
@@ -255,15 +255,7 @@
         {
           "alias": "deltapi-code-editor",
           "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
+          "_styles": {},
           "_name": "custom-html",
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n<script src=\"//code.tidio.co/b9eo1hymmdpynkoahgoza3lca296xc9j.js\"></script>\n</section>",
           "_cid": "rHjgM2MVSL",
@@ -345,8 +337,8 @@
             "hideButtons": true,
             "sticky": true,
             "collapsed": true,
-            "transparent": true,
-            "bgColor": "#eeeeee",
+            "transparent": false,
+            "bgColor": "#ffffff",
             "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
