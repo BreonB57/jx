@@ -50,8 +50,8 @@
             ".navbar-caption": {
               "color": "#ffffff",
               "font-size": "25px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
