@@ -831,6 +831,9 @@ blockquote {
 #footer6-l P {
   color: #ffffff;
 }
+#image2-o DIV {
+  font-size: 20px;
+}
 
 #menu-c .hide-buttons .nav-btn {
   display: none !important;
