@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "fleet.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -28,7 +28,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.10",
     "siteFonts": [],
-    "uniqCompNum": 25,
+    "uniqCompNum": 27,
     "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
     "siteUrl": "",
@@ -210,7 +210,7 @@
           "title4": "HOST ANYWHERE",
           "title5": "IMAGE/CONTENT SLIDER",
           "title6": "CONTACT FORMS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-h\" aria-expanded=\"false\">Airbus A320</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-h\" aria-expanded=\"true\">Embraer 170</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-h\">Animated</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-h\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-h\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-h\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-h\" aria-expanded=\"true\">Airbus A320</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-h\" aria-expanded=\"false\">Embraer 170</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-h\">Animated</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-h\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-h\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-h\">Beautiful</a></li>",
           "media11": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/a320-r-1000x407.png",
@@ -340,58 +340,62 @@
         },
         {
           "_styles": {
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase",
+            ".mbr-section-title": {
               "color": "#ffffff"
             },
-            ".mbr-section-text": {
-              "color": "#9fa3a7"
+            ".mbr-section-title B": {
+              "font-size": "72px"
             },
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-weight": "bold"
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
             }
           },
           "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showText": false,
+            "showImages": true,
+            "showNumber": true,
+            "number1": "",
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
             "showButtons": false,
-            "showArrow": true,
+            "imageSize": "65",
+            "paddingTop": "0",
+            "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#f1c40f",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#ecf0f1",
+            "overlayColor": "#fff",
             "overlayOpacity": 0.9
           },
-          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "media": {
+          "media1": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/map.gif",
-              "class": "",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
               "link": "",
               "alt": "",
               "title": ""
             }
           },
-          "title": "Ranges",
-          "subtitle": "Outer circle - Airbus A320<br>Inner Circle - Embraer 170",
-          "text": "Cut down the development time with drag-and-drop website builder. Drop the blocks you like into your page, edit content inline and publish - no technical skills required.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">learn more</a>",
+          "title1": "<b>Aircraft Ranges</b>",
+          "subtitle1": "OUTER CIRCLE - AIRBUS A320\n<div>INNER CIRCLE - EMBRAER 170</div>",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "number1": "01",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header7",
-          "_anchor": "header7-k"
+          "_name": "features14",
+          "_anchor": "features14-q"
         },
         {
           "_styles": {
@@ -567,6 +571,39 @@
           "_anchor": "features1-i"
         },
         {
+          "_params": {
+            "showText": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#f1c40f"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/airbus-a320-5-recovered-1400x525.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "<b>Airbus A320</b>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-o",
+          "_styles": {
+            "DIV": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
           "_styles": {
             ".mbr-section-title": {
               "font-weight": "700"
@@ -584,7 +621,7 @@
             "ShowTexts": false,
             "showButtons": false,
             "paddingTop": "0",
-            "paddingBottom": 2,
+            "paddingBottom": "0",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
@@ -822,36 +859,6 @@
           ],
           "_name": "footer6",
           "_anchor": "footer6-l"
-        },
-        {
-          "_params": {
-            "showText": true,
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#f1c40f"
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Airbus A320",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-o",
-          "_styles": {
-            "DIV": {
-              "font-size": "20px"
-            }
-          }
         }
       ]
     },
@@ -964,7 +971,10 @@
             },
             ".mbr-section-title": {
               "font-size": "72px",
-              "color": "#ecf0f1"
+              "color": "#ffffff"
+            },
+            ".info, .dataTables_info": {
+              "color": "#ffffff"
             }
           },
           "_params": {

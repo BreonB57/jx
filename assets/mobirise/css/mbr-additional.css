@@ -801,16 +801,14 @@ blockquote {
 #header9-h P {
   color: #666666;
 }
-#header7-k .mbr-section-subtitle {
-  text-transform: uppercase;
+#features14-q .mbr-section-title {
   color: #ffffff;
 }
-#header7-k .mbr-section-text {
-  color: #9fa3a7;
+#features14-q .mbr-section-title B {
+  font-size: 72px;
 }
-#header7-k .mbr-section-title {
+#features14-q .mbr-section-subtitle {
   color: #ffffff;
-  font-weight: bold;
 }
 #features1-i .mbr-section-title {
   font-weight: 700;
@@ -819,6 +817,9 @@ blockquote {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
+}
+#image2-o DIV {
+  font-size: 20px;
 }
 #features1-j .mbr-section-title {
   font-weight: 700;
@@ -830,9 +831,6 @@ blockquote {
 }
 #footer6-l P {
   color: #ffffff;
-}
-#image2-o DIV {
-  font-size: 20px;
 }
 
 #menu-c .hide-buttons .nav-btn {
@@ -909,7 +907,11 @@ blockquote {
 }
 #table1-d .mbr-section-title {
   font-size: 72px;
-  color: #ecf0f1;
+  color: #ffffff;
+}
+#table1-d .info,
+#table1-d .dataTables_info {
+  color: #ffffff;
 }
 #footer6-l P {
   color: #ffffff;
@@ -986,6 +988,9 @@ blockquote {
 }
 #form1-b .mbr-section-subtitle {
   text-transform: uppercase;
+}
+#form1-b .form-control-label {
+  color: undefined;
 }
 #form1-b .mbr-section-title {
   color: #ffffff;
