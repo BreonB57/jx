@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
