@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "home.html",
+    "currentPage": "fleet.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -791,7 +791,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2016 JetLuxe.",
+          "text": "Copyright (c) 2019 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -1059,7 +1059,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2016 JetLuxe.",
+          "text": "Copyright (c) 2019 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -1320,7 +1320,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2016 JetLuxe.",
+          "text": "Copyright (c) 2019 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -1631,7 +1631,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2016 JetLuxe.",
+          "text": "Copyright (c) 2019 JetLuxe.",
           "form": {
             "action": "jetluxetransport@gmail.com",
             "alerts": {
