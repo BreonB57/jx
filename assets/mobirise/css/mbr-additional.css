@@ -816,15 +816,15 @@ blockquote {
   font-family: 'Montserrat', sans-serif;
 }
 #menu-9 .navbar-toggler {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-9 .close-icon::before,
 #menu-9 .close-icon::after {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 #menu-9 .link,
 #menu-9 .dropdown-item {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-9 .link {
   font-size: 0.875rem;
@@ -843,26 +843,26 @@ blockquote {
 }
 #menu-9 .dropdown-item:hover,
 #menu-9 .dropdown-item:focus {
-  color: #ffffff;
+  color: #000000;
 }
 #menu-9 .link[aria-expanded="true"],
 #menu-9 .dropdown-menu {
-  background: #d5d5d5;
+  background: #e6e6e6;
 }
 #menu-9 .nav-dropdown-sm .link:focus,
 #menu-9 .nav-dropdown-sm .link:hover,
 #menu-9 .nav-dropdown-sm .dropdown-item:focus,
 #menu-9 .nav-dropdown-sm .dropdown-item:hover {
-  background: #e6e6e6!important;
+  background: #f7f7f7!important;
 }
 #menu-9 .navbar,
 #menu-9 .nav-dropdown-sm,
 #menu-9 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-9 .nav-dropdown-sm .dropdown-menu {
-  background: #eeeeee;
+  background: #ffffff;
 }
 #menu-9 .bg-color.transparent .link {
-  color: #ffffff;
+  color: #000000;
   transition: none;
 }
 #menu-9 .bg-color.transparent.opened .link {
@@ -879,8 +879,12 @@ blockquote {
 #form1-b .mbr-section-subtitle {
   text-transform: uppercase;
 }
+#form1-b .form-control-label {
+  color: undefined;
+}
 #form1-b .mbr-section-title {
-  color: #333333;
+  color: #ffffff;
+  font-size: 80px;
 }
 
 #menu-c .hide-buttons .nav-btn {
