@@ -11,7 +11,7 @@
         "secondaryColor": "#333333",
         "successColor": "#e67e22",
         "infoColor": "#f39c12",
-        "warningColor": "#000000",
+        "warningColor": "#ffffff",
         "dangerColor": "#666666",
         "titleFont": "Montserrat",
         "subtitleFont": "Montserrat",
@@ -22,17 +22,21 @@
       },
       "additionalSetColors": [
         "#fdfdfd",
-        "#444444"
+        "#444444",
+        "#d7d7d7"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.10",
     "siteFonts": [],
-    "uniqCompNum": 42,
+    "uniqCompNum": 48,
     "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
     "siteUrl": "",
-    "sitemapSwitcherAuto": "on"
+    "sitemapSwitcherAuto": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/symbol-d3-128x128-1.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "fleet.html": {
@@ -101,8 +105,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -116,7 +120,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -129,7 +133,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -147,7 +151,7 @@
             "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#999999",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
@@ -192,7 +196,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#dddddd",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -210,10 +214,10 @@
           "title4": "HOST ANYWHERE",
           "title5": "IMAGE/CONTENT SLIDER",
           "title6": "CONTACT FORMS",
-          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-h\" aria-expanded=\"false\">Airbus A320</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-h\" aria-expanded=\"true\">Embraer 170</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-h\">Animated</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-h\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-h\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-h\">Beautiful</a></li>",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-h\" aria-expanded=\"true\">Airbus A320</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-h\" aria-expanded=\"false\">Embraer 170</a></li><li class=\"nav-item\" style=\"display: none;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-h\">Animated</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-h\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-h\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-h\">Beautiful</a></li>",
           "media11": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/a320-r-1000x407.png",
+              "src": "@PROJECT_PATH@/assets/images/airbus-a320-5-recovered-2000x750.png",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -223,7 +227,7 @@
           },
           "media12": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/embraer-lektuvas-compressor-931x488.png",
+              "src": "@PROJECT_PATH@/assets/images/embraer-e170-1-1600x600.png",
               "class": "card-img-top",
               "active": true,
               "link": "",
@@ -261,24 +265,28 @@
           },
           "media21": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
+              "linkInNewWindow": false,
+              "name": "action-info",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": ".",
               "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "color": "#999999",
+              "newWindow": false
             }
           },
           "media22": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-header5",
-              "name": "attachment",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "@primaryColor",
-              "family": "et-line"
+              "linkInNewWindow": false,
+              "name": "action-info",
+              "family": "Material-Design-Icons",
+              "active": true,
+              "link": ".",
+              "size": "",
+              "color": "#999999",
+              "newWindow": false
             }
           },
           "media23": {
@@ -341,71 +349,15 @@
         {
           "_styles": {
             ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title B": {
-              "font-size": "72px"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showImages": true,
-            "showNumber": true,
-            "number1": "",
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": false,
-            "showButtons": false,
-            "imageSize": "65",
-            "paddingTop": "0",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/05.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f1c40f",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.9
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/map.gif",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "title1": "<b>Aircraft Ranges</b>",
-          "subtitle1": "OUTER CIRCLE - AIRBUS A320\n<div>INNER CIRCLE - EMBRAER 170</div>",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "number1": "01",
-          "button1": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"https://mobirise.com\">watch now</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features14",
-          "_anchor": "features14-q"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title": {
               "font-weight": "700"
             },
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
               "letter-spacing": "2px",
-              "color": "#fff"
+              "color": "#fff",
+              "font-size": "30px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_params": {
@@ -416,12 +368,12 @@
             "showButtons": false,
             "paddingTop": "0",
             "paddingBottom": "0",
-            "columns": "3",
+            "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#666666",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -433,7 +385,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/embraer-e170-600x315.png",
+              "src": "@PROJECT_PATH@/assets/images/embraer-e170-1-600x225.png",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -452,7 +404,7 @@
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/embraer-e1702-600x315.png",
+              "src": "@PROJECT_PATH@/assets/images/airbus-a320-5-recovered-600x225.png",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -471,7 +423,7 @@
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/embraer-e1703-600x315.png",
+              "src": "@PROJECT_PATH@/assets/images/embraer%20e1703-600x315.png",
               "class": "features-img",
               "width": 600,
               "link": "",
@@ -540,11 +492,11 @@
           },
           "title": "Liveries",
           "title1": "Bootstrap 4",
-          "subtitle1": "Embraer 170",
+          "subtitle1": "<b>Embraer 170</b>",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title2": "Responsive",
-          "subtitle2": "EMBRAER 170",
+          "subtitle2": "<b>Airbus A320</b>",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
           "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
           "title3": "Web Fonts",
@@ -571,39 +523,6 @@
           "_anchor": "features1-i"
         },
         {
-          "_params": {
-            "showText": true,
-            "paddingTop": "0",
-            "paddingBottom": "0",
-            "bgColor": "#f1c40f"
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/airbus-a320-5-recovered-1400x525.png",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "<b>Airbus A320</b>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-o",
-          "_styles": {
-            "DIV": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
           "_styles": {
             "P": {
               "color": "#ffffff"
@@ -611,8 +530,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -661,7 +580,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -685,7 +604,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -761,8 +680,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -776,7 +695,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -789,7 +708,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -804,10 +723,10 @@
             },
             ".mbr-section-title": {
               "font-size": "72px",
-              "color": "#ffffff"
+              "color": "#444444"
             },
             ".info, .dataTables_info": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_params": {
@@ -821,7 +740,7 @@
             "bgImage": "@THEME_PATH@/components/_images/flight-mountains-sky-flying.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#d7d7d7",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -832,10 +751,10 @@
           },
           "title": "Proposed destinations",
           "search": "Search:",
-          "info1": "Showing",
-          "info2": "entries",
-          "info3": "(filtered from",
-          "info4": "total entries)",
+          "info1": "<b>Showing</b>",
+          "info2": "<b>entries</b>",
+          "info3": "<b>(filtered from</b>",
+          "info4": "<b>total entries)</b>",
           "table": "<thead><tr><th>Destination</th><th>IATA</th><th>Distance from PER</th></tr></thead><tbody><tr><td>Kalgoorlie Boulder</td><td>KGI</td><td>537kms</td></tr><tr><td>Shark Bay</td><td>MJK</td><td>711kms</td></tr><tr><td>Broome</td><td>BME</td><td>1679kms</td></tr><tr><td>Adelaide</td><td>ADL</td><td>2115kms</td></tr><tr><td>Albany</td><td>ALH</td><td>375kms</td></tr><tr><td>Karratha</td><td>KTA</td><td>1247kms</td></tr><tr><td>Alice Springs</td><td>ASP</td><td>1977kms</td></tr><tr><td>Sultan Azlan Shah</td><td>IPH</td><td>4337kms</td></tr><tr><td>Townsville</td><td>TSV</td><td>3379kms</td></tr><tr><td>Melbourne</td><td>MEL</td><td>2706kms</td></tr><tr><td>Darwin</td><td>DRW</td><td>2652kms</td></tr><tr><td>Brisbane</td><td>BNE</td><td>3607kms</td></tr><tr><td>Singapore</td><td>SIN</td><td>3913kms</td></tr><tr><td>Gold Coast</td><td>OOL</td><td>3620kms</td></tr><tr><td>Canberra</td><td>CBR</td><td>3088kms</td></tr><tr><td>Hobart</td><td>HBA</td><td>3016kms</td></tr><tr><td>Geraldton</td><td>GET</td><td>370kms</td></tr></tbody>",
           "alias": "colorm/components",
           "_tags": [
@@ -852,8 +771,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -902,7 +821,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -926,7 +845,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1002,8 +921,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1017,7 +936,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1030,7 +949,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1059,7 +978,7 @@
             "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#333333",
             "overlay": false,
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.5
@@ -1113,8 +1032,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -1163,7 +1082,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "icreativecrum@gmail.com",
             "alerts": {
@@ -1187,7 +1106,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1267,8 +1186,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1282,12 +1201,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -1295,7 +1213,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1314,10 +1232,10 @@
               "margin-bottom": "0"
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             ".mbr-section-subtitle": {
-              "color": "#000000"
+              "color": "#bbbbbb"
             }
           },
           "_params": {
@@ -1326,23 +1244,23 @@
             "showButtons": true,
             "buttonAlign": "left",
             "showArrow": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/panoramic-3107895-1920-1920x960.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#f1c40f",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
             },
             "overlay": true,
-            "overlayColor": "#16a085",
-            "overlayOpacity": 0.9
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.5"
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "PERTH'S NEW AIRLINE",
-          "text": "Welcome to JetLuxe,",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
+          "title": "PERTH'S NEW <br>AIRLINE<br><br><br>",
+          "text": "Welcome to",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">Learn More</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1354,21 +1272,25 @@
           "_styles": {
             ".mbr-section-subtitle": {
               "text-transform": "uppercase",
-              "font-size": "22px"
+              "font-size": "22px",
+              "color": "#eeeeee"
             },
-            ".form-control-label": {}
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
           },
           "_params": {
             "showSubtitle": true,
             "showTitle": true,
             "showText": false,
-            "paddingTop": "0",
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#333333",
             "overlay": false,
             "overlayColor": "#ecf0f1",
             "overlayOpacity": 0.5
@@ -1379,7 +1301,7 @@
           "title": "<b>SUBSCRIBE NOW!</b>",
           "subtitle": "GET NOTIFIED ABOUT UPDATES",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">send</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">send</a>",
           "form": {
             "action": "jetluxetransport@gmail.com",
             "alerts": {
@@ -1419,38 +1341,40 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "stripedBars": true,
-            "progress1": "0",
-            "progress2": "0",
-            "progress3": "6",
-            "progress4": "15",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpeg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#34495e",
+            "showButtons": true,
+            "showArrow": true,
+            "animText1": "KARRATHA",
+            "animText2": "IPOH",
+            "animText3": "TOWNSVILLE",
+            "typeSpeed": "100",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/11-2.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#999999",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#7f8c8d",
-            "overlayOpacity": "1"
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
           },
-          "title": "Development Progress",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat perferendis voluptates, animi cum dignissimos debitis, nam hic aspernatur cumque quaerat dolorum sed, delectus rerum omnis consequatur nulla neque temporibus quis ipsam dolor esse dolore! Commodi quidem necessitatibus nesciunt. Repellat quo dolores beatae facere provident rem magnam quidem vel autem?",
-          "title1": "Funding",
-          "title2": "Fleet",
-          "title3": "Website",
-          "title4": "Other planning",
+          "title": "FLIGHTS TO",
+          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">All destinations</a>",
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "progress-bar1",
-          "_anchor": "progress-bar1-10"
+          "_name": "header11",
+          "_anchor": "header11-1b",
+          "_styles": {
+            "H1": {
+              "color": "#333333"
+            }
+          }
         },
         {},
         {
@@ -1461,8 +1385,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -1511,7 +1435,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "jetluxetransport@gmail.com",
             "alerts": {
@@ -1535,77 +1459,13 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "footer6",
           "_anchor": "footer6-l"
-        },
-        {
-          "_params": {
-            "modalName": "Notice-to-Users",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Notice",
-            "modalBody": "Please note that this website is not finished, and you will therefore run into bugs and glitches.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Ok",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Notice-to-Users\">Preview Notice-to-Users</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Notice-to-Users-howtouse\">How to use Notice-to-Users</a>\n</div>\n<div class=\"modal fade\" id=\"Notice-to-Users-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Notice-to-Users-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Notice-to-Users-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Notice-to-Users')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Please note that this website is not finished, and you will therefore run into bugs and glitches.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-m",
-          "modalWindow": "<div class=\"modal fade\" id=\"Notice-to-Users\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Notice-to-UsersLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Notice-to-UsersLabel\">Notice</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Notice-to-Users_body\">Please note that this website is not finished, and you will therefore run into bugs and glitches.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Notice-to-Users\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Notice-to-Users_body\" ).html();    $( \"#Notice-to-Users_body\" ).empty();    $( \"#Notice-to-Users_body\" ).append(html);  })});</script>"
-        },
-        {
-          "_params": {
-            "modalName": "Store-not-finished",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Store",
-            "modalBody": "Thanks for taking interest in our store! Unfortunately, the store is not finished, so you will not be able to access it",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Ok",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Store-not-finished\">Preview Store-not-finished</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Store-not-finished-howtouse\">How to use Store-not-finished</a>\n</div>\n<div class=\"modal fade\" id=\"Store-not-finished-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Store-not-finished-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Store-not-finished-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Store-not-finished')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "Thanks for taking interest in our store! Unfortunately, the store is not finished, so you will not be able to access it",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-n",
-          "modalWindow": "<div class=\"modal fade\" id=\"Store-not-finished\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Store-not-finishedLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Store-not-finishedLabel\">Store</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Store-not-finished_body\">Thanks for taking interest in our store! Unfortunately, the store is not finished, so you will not be able to access it</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Ok</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Store-not-finished\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Store-not-finished_body\" ).html();    $( \"#Store-not-finished_body\" ).empty();    $( \"#Store-not-finished_body\" ).append(html);  })});</script>"
         }
       ]
     },
@@ -1675,8 +1535,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1690,7 +1550,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1703,7 +1563,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -1722,7 +1582,7 @@
           },
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "buttonAlign": "left",
             "showArrow": true,
@@ -1741,8 +1601,8 @@
             "overlayOpacity": "0"
           },
           "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
-          "title": "Perth Airport<br><br><br><br><br>",
-          "text": "Cut down the development time with drag-and-drop website builder. Drop the blocks you like into your page, edit content inline and publish - no technical skills required.",
+          "title": "Perth Airport<br>",
+          "text": "(PER, YPPH)",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-pinterest mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a><a data-app-btn=\"true\" class=\"btn btn-icon\" href=\"https://mobirise.com\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
@@ -1752,20 +1612,6 @@
           "_anchor": "header2-t"
         },
         {
-          "_params": {
-            "googleMap": {
-              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3385.8235504538807!2d115.96506051559315!3d-31.938547581233294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32b91156f7274d%3A0xdfac240dd4527a64!2sPerth%20Airport!5e0!3m2!1sen!2sau!4v1573734042001!5m2!1sen!2sau\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
-              "placeId": "iframe",
-              "state": "ok"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-u"
-        },
-        {
           "_styles": {
             "P": {
               "color": "#ffffff"
@@ -1773,8 +1619,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -1823,7 +1669,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "jetluxetransport@gmail.com",
             "alerts": {
@@ -1847,323 +1693,128 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
           "_name": "footer6",
           "_anchor": "footer6-s"
-        }
-      ]
-    },
-    "aircraft-naming-competition.html": {
-      "settings": {
-        "title": "Name Competition",
-        "order": 2
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".navbar-toggler": {
-              "color": "#000000"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#000000"
-            },
-            ".link, .dropdown-item": {
-              "color": "#000000"
-            },
-            ".link": {
-              "font-size": "0.875rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.948rem"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#000000"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#000000",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f1c40f!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#ffffff",
-            "fontSize": 0.875,
-            "fontName": {},
-            "fontColor": "#000000",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
-          "alias": "colorm/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-v"
         },
         {
-          "_styles": {
-            ".mbr-section-subtitle": {
-              "text-transform": "uppercase"
-            },
-            ".form-control-label": {},
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-text": {
-              "color": "#ffffff"
-            }
-          },
           "_params": {
-            "showSubtitle": false,
-            "showTitle": true,
-            "showText": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f1c40f",
-            "overlay": false,
-            "overlayColor": "#ecf0f1",
-            "overlayOpacity": 0.5
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
           },
-          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
-          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
-          "iconPhone": "<img src=\"@THEME_PATH@/components/_images/form/icon-phone.png\">",
-          "title": "<b>Aircraft Name Suggestions</b>",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
-          "text": "<b>When we do start up, we will need a name for our aircraft, for example \"FlyScoot\" has named their aircraft from \"Chapati Party\", to \"Big Yella Fella\"<br>Winner will recieve a 25% flight discount when we start operations</b>",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enter</a>",
-          "form": {
-            "action": "jetluxetransport@gmail.com",
-            "alerts": {
-              "success": "Thanks for entering our competition! We will update with the winner soon"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Name Suggestion/s and Background info"
-              }
-            }
-          },
+          "text": "<p>Perth Airport is the main airport servicing Perth's ever growing demand for passenger flights internationally, and domestically.</p>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
-          "_anchor": "form1-x"
+          "_name": "content4",
+          "_anchor": "content4-16"
         },
         {
           "_styles": {},
           "_params": {
-            "showImages": true,
-            "showTitle": true,
+            "showTitles": false,
             "showText": false,
-            "showDate": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
+            "showSubtitles": true,
+            "paddingTop": 3,
+            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "bgImage": "@THEME_PATH@/components/extFeatures1/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#f1c40f",
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#fff",
-            "overlayOpacity": 0.9,
-            "news": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/embraer-e170-1-1600x600.png",
-                "title": "Embraer 170",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sit molestias error, magni deleniti consectetur voluptas soluta, placeat quo voluptatem tempora ullam, velit in sunt suscipit recusandae natus quia porro eveniet? Quis vitae ad voluptas, ullam deserunt. Odit sapiente laborum, obcaecati facere iusto animi alias iste quis. Itaque molestiae quibusdam voluptatibus suscipit, quisquam sequi reiciendis minima nihil. Reiciendis sed, mollitia minima aliquam! Porro vitae error enim totam accusamus consequuntur laboriosam, esse quisquam nulla quibusdam! Libero consequuntur saepe, quo perspiciatis itaque beatae accusamus minus veniam aspernatur, neque, dignissimos repellat modi laborum commodi dolores officia voluptates! Molestias cumque adipisci ipsa, rerum non.",
-                "date": "10 june 2016",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/airbus-a320-5-recovered-2000x750.png",
-                "title": "Airbus A320",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At id in ipsam accusantium totam ex est, repellat, reiciendis non et minus beatae velit animi eaque nemo nam enim, praesentium accusamus, saepe ut odit eligendi asperiores. Nemo quis expedita dignissimos officia, aliquam ex porro explicabo dicta, molestias, quisquam pariatur ea ratione neque distinctio magni iusto est, alias iste repellendus. Deleniti, quis laboriosam libero doloremque iste nostrum molestias alias dicta suscipit labore reiciendis eum quas facere placeat repellat voluptate quaerat accusamus corrupti. Amet, iusto, suscipit nemo perferendis blanditiis laudantium dolor voluptate eaque, sint, enim corporis eius necessitatibus accusantium magni dignissimos non neque.",
-                "date": "10 june 2016",
-                "active": true,
-                "alt": ""
-              }
-            ]
+            "overlayOpacity": 0.75
           },
+          "title": "View Our Statistic",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
+          "subtitle1": "Flights per month",
+          "subtitle2": "Destinations",
+          "subtitle3": "Airlines",
+          "subtitle4": "Runways",
+          "number1": "12,024",
+          "number2": "110",
+          "number3": "29",
+          "number4": "2",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "news1",
-          "_anchor": "news1-y"
+          "_name": "counters2",
+          "_anchor": "counters2-17"
         },
         {
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          },
+          "_styles": {},
           "_params": {
-            "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "showTitles": false,
+            "showText": false,
+            "showSubtitles": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
+            "bgImage": "@THEME_PATH@/components/extFeatures1/images/01.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#444444",
-            "overlay": true,
-            "overlayColor": "#444",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/colorm_logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.75
           },
-          "title1": "Plans",
-          "text11": "<a href=\"destinations.html\">Destinations</a>",
-          "text12": "<a href=\"fleet.html\">Fleet</a>",
-          "text13": "<a href=\"fleet.html#features1-i\">Liveries</a>",
-          "text14": "",
-          "text15": "",
-          "title2": "Contact",
-          "text21": "<a href=\"email.html\">Email</a>",
-          "text22": "<a href=\"https://www.tidio.com/talk/jx\">Chat</a>",
-          "text23": "",
-          "text24": "",
-          "text25": "",
-          "title3": "",
-          "text31": "",
-          "text32": "",
-          "text33": "",
-          "text34": "",
-          "text35": "",
-          "title4": "Subscribe to newsletter",
-          "text41": "Popular",
-          "text42": "Trending",
-          "text43": "Catalog",
-          "text44": "Awesome",
-          "text45": "Best",
-          "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
-          "form": {
-            "action": "jetluxetransport@gmail.com",
-            "alerts": {
-              "success": "Thanks for subscribing!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "title": "View Our Statistic",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquam fuga aspernatur quaerat nobis deserunt.",
+          "subtitle1": "Passengers per month",
+          "subtitle2": "Terminals",
+          "subtitle3": "Runway length",
+          "subtitle4": "Employees",
+          "number1": "1,330,625",
+          "number2": "4",
+          "number3": "3,444m",
+          "number4": "17,800",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "footer6",
-          "_anchor": "footer6-w"
+          "_name": "counters2",
+          "_anchor": "counters2-18"
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-5560-1136x757.jpeg",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/HnPYeBJ9JCc"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-19"
         }
       ]
     },
@@ -2233,8 +1884,8 @@
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
+            "showBrand": false,
+            "hideButtons": true,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -2248,7 +1899,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/symbol-d3-png-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -2261,7 +1912,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JETLUXE</a>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2277,8 +1928,8 @@
           },
           "_params": {
             "showTitles": true,
-            "paddingTop": 1,
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
             "parallax": false,
@@ -2327,7 +1978,7 @@
           "text44": "Awesome",
           "text45": "Best",
           "header1": "Subscribe And Get The Latest News",
-          "text": "Copyright (c) 2019 JetLuxe.",
+          "text": "Copyright (c) 2020 JetLuxe.",
           "form": {
             "action": "jetluxetransport@gmail.com",
             "alerts": {
@@ -2351,7 +2002,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -2364,13 +2015,13 @@
             "showTitle": true,
             "showText": false,
             "tabs": "6",
-            "paddingTop": 2,
-            "paddingBottom": "0",
+            "paddingTop": "3",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/img_extAccordion1_bg.jpg",
             "parallax": false,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#333333",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -2379,10 +2030,10 @@
             "overlayColor": "#151515",
             "overlayOpacity": 0.5
           },
-          "title": "Frequently Asked Questions",
+          "title": "<b>Frequently Asked Questions</b>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
           "title1": "<a role=\"button\" class=\"text-white\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-14\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><b><span class=\"sign\"></span>When will you launch?</b></a>",
-          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-14\" aria-expanded=\"true\" aria-controls=\"collapseTwo\"><b>What destinations will you fly to?</b></a>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-14\" aria-expanded=\"false\" aria-controls=\"collapseTwo\"><b>What destinations will you fly to?</b></a>",
           "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-14\" aria-expanded=\"true\" aria-controls=\"collapseThree\"><b>What aircraft will you operate?</b></a>",
           "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-14\" aria-expanded=\"true\" aria-controls=\"collapseFour\"><b>What type of airline is this?</b></a>",
           "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-14\" aria-expanded=\"true\" aria-controls=\"collapseFive\"><b>Are we looking for pilots, and other workers?</b></a>",
@@ -2398,7 +2049,12 @@
             "Theme"
           ],
           "_name": "toggle1",
-          "_anchor": "toggle1-14"
+          "_anchor": "toggle1-14",
+          "_styles": {
+            "DIV": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
