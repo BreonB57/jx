@@ -972,9 +972,6 @@ blockquote {
 #form1-b .mbr-section-subtitle {
   text-transform: uppercase;
 }
-#form1-b .form-control-label {
-  color: undefined;
-}
 #form1-b .mbr-section-title {
   color: #ffffff;
   font-size: 80px;
@@ -1239,4 +1236,114 @@ blockquote {
 }
 #toggle1-14 DIV {
   color: #ffffff;
+}
+
+#menu-16 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#menu-16 .navbar-caption {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+#menu-16 .navbar-toggler {
+  color: #000000;
+}
+#menu-16 .close-icon::before,
+#menu-16 .close-icon::after {
+  background-color: #000000;
+}
+#menu-16 .link,
+#menu-16 .dropdown-item {
+  color: #000000;
+}
+#menu-16 .link {
+  font-size: 0.875rem;
+}
+#menu-16 .dropdown-item,
+#menu-16 .nav-dropdown-sm .link {
+  font-size: 0.948rem;
+}
+#menu-16 .link:hover,
+#menu-16 .link:focus {
+  color: #f1c40f;
+}
+#menu-16 .dropdown-item:hover::before,
+#menu-16 .dropdown-item:focus::before {
+  background: #f1c40f;
+}
+#menu-16 .dropdown-item:hover,
+#menu-16 .dropdown-item:focus {
+  color: #000000;
+}
+#menu-16 .link[aria-expanded="true"],
+#menu-16 .dropdown-menu {
+  background: #e6e6e6;
+}
+#menu-16 .nav-dropdown-sm .link:focus,
+#menu-16 .nav-dropdown-sm .link:hover,
+#menu-16 .nav-dropdown-sm .dropdown-item:focus,
+#menu-16 .nav-dropdown-sm .dropdown-item:hover {
+  background: #f7f7f7!important;
+}
+#menu-16 .navbar,
+#menu-16 .nav-dropdown-sm,
+#menu-16 .nav-dropdown-sm .link[aria-expanded="true"],
+#menu-16 .nav-dropdown-sm .dropdown-menu {
+  background: #ffffff;
+}
+#menu-16 .bg-color.transparent .link {
+  color: #000000;
+  transition: none;
+}
+#menu-16 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#menu-16 .bg-color.transparent.opened .link:hover,
+#menu-16 .bg-color.transparent.opened .link:focus {
+  color: #f1c40f;
+}
+#menu-16 .link[aria-expanded="true"],
+#menu-16 .dropdown-item[aria-expanded="true"] {
+  color: #f1c40f!important;
+}
+#footer6-17 P {
+  color: #ffffff;
+}
+#shop1-18 .galleryItem h4:hover {
+  color: #f1c40f;
+}
+#shop1-18 .mbr-gallery-filter ul li.active {
+  color: #f1c40f;
+}
+#shop1-18 .mbr-gallery-filter ul li:hover {
+  color: #f1c40f;
+}
+#shop1-18 .mbr-gallery-filter ul li:before {
+  background: #f1c40f;
+}
+#shop1-18 .min-toggle:hover,
+#shop1-18 .max-toggle:hover {
+  background-color: #f1c40f;
+}
+#shop1-18 .shop-title {
+  font-family: Montserrat;
+}
+#shop1-18 .categories-titles .mbr-gallery-filter ul li {
+  font-family: Montserrat;
+}
+#shop1-18 .max-input {
+  font-family: Montserrat;
+}
+#shop1-18 .min-input {
+  font-family: Montserrat;
+}
+#shop1-18 .item-title {
+  font-family: Montserrat;
+}
+#shop1-18 .card-description {
+  font-family: Open Sans;
+}
+#shop1-18 .shop-item-price {
+  font-family: Montserrat;
 }

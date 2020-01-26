@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "home.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -23,20 +23,24 @@
       "additionalSetColors": [
         "#fdfdfd",
         "#444444",
-        "#d7d7d7"
+        "#232323",
+        "#f5f5f5"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.10",
     "siteFonts": [],
-    "uniqCompNum": 48,
+    "uniqCompNum": 44,
     "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/symbol-d3-128x128-1.png",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "mcShopcart": {
+      "email": "jetluxetransport@gmail.com"
+    }
   },
   "pages": {
     "fleet.html": {
@@ -106,7 +110,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -116,7 +120,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -681,7 +685,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -691,7 +695,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -922,7 +926,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -932,7 +936,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1187,7 +1191,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1197,7 +1201,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1536,7 +1540,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1546,7 +1550,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1821,7 +1825,7 @@
     "page6.html": {
       "settings": {
         "title": "FAQ",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1885,7 +1889,7 @@
           "_params": {
             "logo": true,
             "showBrand": false,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
@@ -1895,7 +1899,7 @@
             "fontColor": "#000000",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -2055,6 +2059,400 @@
               "color": "#ffffff"
             }
           }
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Store",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "25px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f1c40f!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"index.html\" aria-expanded=\"false\">Plans</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"http://forums.mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Fleet</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Aircraft</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"fleet.html#features1-i\">Liveries</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"page2.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Destinations</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"destinations.html\">All</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Perth</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Perth Airport</a></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">Contact</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Email</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">Chat</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.tidio.com/talk/jx\">FAQ</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"javascript:OpenModal('Store-not-finished')\">Store</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/jetluxe-logo-d3-png-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-16"
+        },
+        {
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitles": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/footer5.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/colorm_logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Plans",
+          "text11": "<a href=\"destinations.html\">Destinations</a>",
+          "text12": "<a href=\"fleet.html\">Fleet</a>",
+          "text13": "<a href=\"fleet.html#features1-i\">Liveries</a>",
+          "text14": "",
+          "text15": "",
+          "title2": "Contact",
+          "text21": "<a href=\"email.html\">Email</a>",
+          "text22": "<a href=\"https://www.tidio.com/talk/jx\">Chat</a>",
+          "text23": "",
+          "text24": "",
+          "text25": "",
+          "title3": "",
+          "text31": "",
+          "text32": "",
+          "text33": "",
+          "text34": "",
+          "text35": "",
+          "title4": "Subscribe to newsletter",
+          "text41": "Popular",
+          "text42": "Trending",
+          "text43": "Catalog",
+          "text44": "Awesome",
+          "text45": "Best",
+          "header1": "Subscribe And Get The Latest News",
+          "text": "Copyright (c) 2020 JetLuxe.",
+          "form": {
+            "action": "jetluxetransport@gmail.com",
+            "alerts": {
+              "success": "Thanks for subscribing!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer6",
+          "_anchor": "footer6-17"
+        },
+        {
+          "_styles": {
+            ".galleryItem h4:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li.active": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:hover": {
+              "color": "@primaryColor"
+            },
+            ".mbr-gallery-filter ul li:before": {
+              "background": "@primaryColor"
+            },
+            ".min-toggle:hover, .max-toggle:hover": {
+              "background-color": "@primaryColor"
+            },
+            ".shop-title": {
+              "font-family": "@titleFont"
+            },
+            ".categories-titles .mbr-gallery-filter ul li": {
+              "font-family": "@titleFont"
+            },
+            ".max-input": {
+              "font-family": "@titleFont"
+            },
+            ".min-input": {
+              "font-family": "@titleFont"
+            },
+            ".item-title": {
+              "font-family": "@titleFont"
+            },
+            ".card-description": {
+              "font-family": "@textFont"
+            },
+            ".shop-item-price": {
+              "font-family": "@subtitleFont"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSidebar": true,
+            "showSortButtons": true,
+            "showBestSellers": true,
+            "priceRange": true,
+            "filter": true,
+            "showStars": true,
+            "paddingTop": "6",
+            "paddingBottom": "0",
+            "bgColor": "#f5f5f5",
+            "filterBgColor": false,
+            "fontHoverColor": "@primaryColor",
+            "mainTitle": "@titleFont",
+            "mainSubTitle": "@subtitleFont",
+            "mainText": "@textFont",
+            "images": [
+              {
+                "tags": "Accessories",
+                "bestSeller": false,
+                "itemTitle": "JetLuxe Buttons (5 Pack)",
+                "itemSubtitle": "your energy dose",
+                "itemDescription": "Buttons with pins that you can use to decorate clothing, bags, or other material items, emblazoned with our logo.<br><br> Product code: <b>34567F5p</b>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$20.00",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=20&amp;item_name=5x+Jetluxe+Buttons&amp;currency_code=AUD\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "image": "@PROJECT_PATH@/assets/images/preview-600x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/preview-600x600-600x600.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
+                "caption": "Type caption here",
+                "onSale": false,
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Bags",
+                "bestSeller": true,
+                "itemTitle": "JetLuxe Drawstring Bag",
+                "itemSubtitle": "your energy dose",
+                "itemDescription": "<p>A bag ideal for taking to the gym, complete with pull-strings, emblazoned with our logo.</p><p><br> Product code: <b>h83lf94g</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$25.50",
+                "onsale": "SALE 50% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=25.5&amp;item_name=JetLuxe+Drawstring+Bag&amp;currency_code=AUD\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "image": "@PROJECT_PATH@/assets/images/preview%20(1)-600x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/preview-1-600x600-600x600.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/4.png",
+                "stars": "@ADDON_DIR@_images/shop/4.png",
+                "caption": "Type caption here",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Accessories",
+                "bestSeller": false,
+                "itemTitle": "JetLuxe Drinking Jar",
+                "itemSubtitle": "your energy dose",
+                "itemDescription": "<p>A clear glass jar that is perfect for iced coffee, milk, lemonade, or other cold drinks.</p><p><br> Product code: <b>enh93l6r</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$28.00",
+                "onsale": "SALE 10% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=28&amp;item_name=JetLuxe+Drinking+Jar&amp;currency_code=AUD\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "image": "@PROJECT_PATH@/assets/images/preview%20(2)-600x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/preview-2-600x600-600x600.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@ADDON_DIR@_images/shop/3.png",
+                "caption": "Type caption here",
+                "onSale": true,
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "tags": "Accessories",
+                "bestSeller": false,
+                "itemTitle": "JetLuxe Water Bottle",
+                "itemSubtitle": "your energy dose",
+                "itemDescription": "<p>A handy bottle that you can take anywhere with you, and keeps your drinks cold.</p><p><br> Product code: <b>h93m6839</b></p>",
+                "itemPriceTitle": "From: ",
+                "itemPrice": "$24.00",
+                "onsale": "SALE 10% OFF",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=24&amp;item_name=JetLuxe+Water+Bottle&amp;currency_code=AUD\" class=\"btn btn-primary btn-primary-outline\">Buy now!</a>",
+                "image": "@PROJECT_PATH@/assets/images/preview%20(3)-600x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/preview-3-600x600-600x600.png",
+                "starsImg": "@PROJECT_PATH@/assets/images/3.png",
+                "stars": "@ADDON_DIR@_images/shop/3.png",
+                "caption": "Type caption here",
+                "onSale": true,
+                "active": true,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "title": "Shop",
+          "filter_by_pu": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Price: low to high</a>",
+          "filter_by_pd": "<a data-app-btn=\"true\" class=\"btn btn-primary disableSortButton\">Price: high to low</a>",
+          "filter_by_d": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Default sorting</a>",
+          "price_range": "<a class=\"btn btn-primary filterPriceRange\">Filter</a>",
+          "price_range_reset": "<a class=\"btn btn-secondary showAll\">Show all</a>",
+          "closeModal": "<a class=\"btn btn-primary modalButton\" mbr-on-click=\"_onCloseModalClick\">Close</a>",
+          "allItem": "All",
+          "sidebar1": "Best Sellers",
+          "sidebar2": "Filter by price",
+          "sidebar3": "Product Categories",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "shop1",
+          "_anchor": "shop1-18"
+        },
+        {
+          "_params": {
+            "stripedBars": true,
+            "progress1": "0",
+            "paddingTop": 0,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/08.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f5f5f5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.85
+          },
+          "title": "Basic Progress Bars",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fugiat perferendis voluptates, animi cum dignissimos debitis, nam hic aspernatur cumque quaerat dolorum sed, delectus rerum omnis consequatur nulla neque temporibus quis ipsam dolor esse dolore! Commodi quidem necessitatibus nesciunt. Repellat quo dolores beatae facere provident rem magnam quidem vel autem?",
+          "title1": "Our goal (A$1,000)",
+          "title2": "Illustrator",
+          "title3": "Coreldraw",
+          "title4": "Photography",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "progress-bar3",
+          "_anchor": "progress-bar3-16"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#f5f5f5"
+          },
+          "text": "All prices on the store are in AUD (Australian Dollars). For any returns, we will pay return postage. If you change your mind about an item, we will only offer an 80% refund and will pay for return shipping. No restocking fees apply. Orders cannot be changed after being placed.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-17"
         }
       ]
     }
