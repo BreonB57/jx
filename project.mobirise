@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JetLuxe",
-    "currentPage": "index.html",
+    "currentPage": "store.html",
     "theme": {
       "name": "colorm",
       "title": "ColorM",
@@ -22,15 +22,13 @@
       },
       "additionalSetColors": [
         "#fdfdfd",
-        "#444444",
-        "#232323",
-        "#f5f5f5"
+        "#444444"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.10",
     "siteFonts": [],
-    "uniqCompNum": 44,
+    "uniqCompNum": 42,
     "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
     "siteUrl": "",
@@ -39,7 +37,17 @@
     "noImageResize": "",
     "google-analytics": "",
     "mcShopcart": {
-      "email": "jetluxetransport@gmail.com"
+      "email": "breonbanwait@gmail.com",
+      "iconSize": "48",
+      "iconColor": "#FFFFFF",
+      "backColor": "#000000",
+      "topOffset": "120",
+      "rightOffset": "20",
+      "siteWidth": "1150",
+      "counterSize": "14",
+      "counterColor": "#FFFFFF",
+      "counterBack": "#fac51c",
+      "checkoutButton": "Check Out with"
     }
   },
   "pages": {
@@ -1400,7 +1408,7 @@
                 "image": "@PROJECT_PATH@/assets/images/preview%20(1)-600x600.png",
                 "thumb": "@PROJECT_PATH@/assets/images/preview-1-600x600-600x600.png",
                 "starsImg": "@PROJECT_PATH@/assets/images/4.png",
-                "stars": "@ADDON_DIR@_images/shop/4.png",
+                "stars": "@PROJECT_PATH@/assets/images/4.png",
                 "caption": "Type caption here",
                 "active": false,
                 "alt": "",
@@ -1419,7 +1427,7 @@
                 "image": "@PROJECT_PATH@/assets/images/preview%20(2)-600x600.png",
                 "thumb": "@PROJECT_PATH@/assets/images/preview-2-600x600-600x600.png",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
-                "stars": "@ADDON_DIR@_images/shop/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "caption": "Type caption here",
                 "onSale": true,
                 "active": false,
@@ -1439,7 +1447,7 @@
                 "image": "@PROJECT_PATH@/assets/images/preview%20(3)-600x600.png",
                 "thumb": "@PROJECT_PATH@/assets/images/preview-3-600x600-600x600.png",
                 "starsImg": "@PROJECT_PATH@/assets/images/3.png",
-                "stars": "@ADDON_DIR@_images/shop/3.png",
+                "stars": "@PROJECT_PATH@/assets/images/3.png",
                 "caption": "Type caption here",
                 "onSale": true,
                 "active": true,
